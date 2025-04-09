@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-flow: column;
+}
+
+h3 {
+  color: #ffc1c2;
+  font: 20px/21px "cursive", serif;
+}
+
+h4 {
+    color: #ffc1c2;
+    font: 16px/16px;
+}
+
+A:hover {
+    color: white;
+}
+
+img {
+    border-style: none;
+}
