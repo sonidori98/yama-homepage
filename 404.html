@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not Found</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #e44d26; /* 少し危険物っぽい色 */
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        strong {
+            color: #c0392b; /* 強調色 */
+        }
+
+        .image-placeholder {
+            margin: 30px auto;
+            width: 80%;
+            max-width: 400px;
+            height: 200px; /* 画像の高さに合わせて調整してください */
+            background-color: #ddd; /* 画像の代わりに背景色 */
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #666;
+            font-style: italic;
+            border: 1px dashed #aaa;
+            /* ここに画像のURLを設定する場合は、background-imageプロパティを使用します */
+            /* background-image: url('your-image-path.jpg'); */
+            /* background-size: cover; */
+            /* background-position: center; */
+        }
+
+        .return-link {
+            display: inline-block;
+            background-color: #3498db;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .return-link:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>404 Not Found</h1>
+        <p>
+            おっと！<br>
+            あなたが探しているページは、どうやら見つからないようです。<br>
+            まるで山中宏斗が探し求めている<strong>乙四</strong>のように、<br>
+            どこかへ行ってしまったのかもしれません。
+        </p>
+        <a href="./index.html" class="return-link">戻る</a>
+    </div>
+</body>
+</html>
