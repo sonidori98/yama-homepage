@@ -1,6 +1,6 @@
 function handleLogin() {
     const correctUsername = "admin";
-    const correctPassword = "sisiabudokeisekki";
+    const correctPassword = "sisiyusidokeisekki";
 
     const enteredUsername = document.getElementById("username").value;
     const enteredPassword = document.getElementById("password").value;
