@@ -12,7 +12,7 @@ function handleLogin() {
         } else {
             deleteCookie("rememberedUsername");
         }
-        window.location.href = "admin.html";
+        window.location.href = "admin/admin.html";
     } else {
         alert("ユーザー名またはパスワードが間違っています");
     }
