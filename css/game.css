@@ -4,8 +4,8 @@ body {
 }
 
 h3 {
-  color: #ffc1c2;
-  font: 20px/21px "cursive", serif;
+    color: #ffc1c2;
+    font: 20px/21px "cursive", serif;
 }
 
 h4 {
@@ -19,4 +19,28 @@ A:hover {
 
 img {
     border-style: none;
+}
+
+s {
+    text-decoration: line-through 3px yellow;
+}
+
+.why {
+    position: relative;
+    color: yellow;
+}
+
+.why:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 1;
 }
